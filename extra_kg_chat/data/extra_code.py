@@ -67,7 +67,7 @@ def llm_extra(text):
     '''
     with open('label.json', 'r', encoding='utf-8') as f:
         label_list = json.load(f)
-    dashscope.api_key = 'sk-6b9d0adadea742b5a2410fc8058f9d84'
+    dashscope.api_key = ''
     if text in data_dict:
         return data_dict[text], text
     messages = [{'role': 'system', 'content': PROMPT.replace('{label_json}', str(label_list))},
