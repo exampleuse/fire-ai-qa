@@ -1,0 +1,57 @@
+[
+  {
+    "start_label": "应急手册",
+    "rel": "包含",
+    "end_label": "应急类别"
+  },
+  {
+    "start_label": "应急类别",
+    "rel": "包含",
+    "end_label": "具体事故"
+  },
+  {
+    "start_label": "具体事故",
+    "rel": "需要",
+    "end_label": "应急措施"
+  },
+  {
+    "start_label": "具体事故",
+    "rel": "涉及",
+    "end_label": "危险源"
+  },
+  {
+    "start_label": "应急措施",
+    "rel": "包含",
+    "end_label": "急救方法"
+  },
+  {
+    "start_label": "紧急情况",
+    "rel": "使用",
+    "end_label": "报警电话"
+  },
+  {
+    "start_label": "公众",
+    "rel": "掌握",
+    "end_label": "应急技能"
+  },
+  {
+    "start_label": "应急技能",
+    "rel": "包括",
+    "end_label": "自救能力"
+  },
+  {
+    "start_label": "应急技能",
+    "rel": "包括",
+    "end_label": "互救能力"
+  },
+  {
+    "start_label": "危险源",
+    "rel": "引发",
+    "end_label": "具体事故"
+  },
+  {
+    "start_label": "防护知识",
+    "rel": "预防",
+    "end_label": "突发事件"
+  }
+]

@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[0],{aArQ:function(e,n,r){"use strict";r.r(n);var t=r("q1tI"),s=r.n(t);class o extends t["Component"]{constructor(e){super(e)}render(){return s.a.createElement("div",null,this.props.children)}}n["default"]=o}}]);
