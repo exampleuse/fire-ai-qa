@@ -35,7 +35,7 @@ extra_kg_chat/
 ├── data_backup/       # 数据备份
 ├── result/            # 结果文件
 ├── app.py             # 后端主文件
-└── README.md          # 项目说明文档
+
 ```
 
 ## 环境要求
