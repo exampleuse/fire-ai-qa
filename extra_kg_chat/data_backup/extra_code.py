@@ -5,7 +5,7 @@ from tqdm import tqdm
 from http import HTTPStatus
 import dashscope
 
-
+ 
 PROMPT = '''
 # 背景
 你是一个信息抽取专家
