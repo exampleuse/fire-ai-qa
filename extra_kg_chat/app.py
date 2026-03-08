@@ -185,7 +185,7 @@ class neo4j_db():
         from http import HTTPStatus
         import dashscope
         # dashscope.api_key = ''
-        dashscope.api_key = 'sk-54258b163ca04dca92130c0ab98e62c0'
+        dashscope.api_key = ''
         messages = [{'role': 'user', 'content': self.prompt.replace('{context}', context).replace('{question}', question)}]
         try:
             response = dashscope.Generation.call(
@@ -227,8 +227,8 @@ class neo4j_db():
         {{question}}
         
         '''
-        # dashscope.api_key = 'sk-6b9d0adadea742b5a2410fc8058f9d84'
-        dashscope.api_key = 'sk-54258b163ca04dca92130c0ab98e62c0'
+        # dashscope.api_key = ''
+        dashscope.api_key = ''
         messages = [{'role': 'user', 'content': prompt.replace('{{question}}', question)}]
         try:
             response = dashscope.Generation.call(
@@ -257,8 +257,8 @@ class neo4j_db():
         :return:
         '''
 
-        # dashscope.api_key = 'sk-6b9d0adadea742b5a2410fc8058f9d84'
-        dashscope.api_key = 'sk-54258b163ca04dca92130c0ab98e62c0'
+        # dashscope.api_key = ''
+        dashscope.api_key = ''
         messages = [{'role': 'user', 'content': self.prompt_.replace('{label_json}', str(self.label_list)).replace('{input}',input)}]
         try:
             response = dashscope.Generation.call(
